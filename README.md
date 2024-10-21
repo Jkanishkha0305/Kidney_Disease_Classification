@@ -45,3 +45,10 @@ Dataset : Kaggel [CT KIDNEY DATASET: Normal-Cyst-Tumor and Stone]
 Dataset Link : https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone  
 Size : 1.66 GB   
 Files : 12.4k Files
+
+
+### Step 04 - prepare base model 
+Keras API link : https://keras.io/api/applications/
+Model Chosen : VGG16 
+Model link : https://keras.io/api/applications/vgg/#vgg16-function 
+Image size : 244x244x3
