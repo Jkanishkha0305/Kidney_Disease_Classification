@@ -24,7 +24,7 @@ Clone the repository
 ```bash
 https://github.com/Jkanishkha0305/Kidney_Disease_Classification
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01 - Create a conda environment after opening the repository
 
 ```bash
 conda create -n kidney python=3.8 -y
@@ -35,7 +35,13 @@ conda activate kidney
 ```
 
 
-### STEP 02- install the requirements
+### STEP 02 - install the requirements
 ```bash
 pip install -r requirements.txt
 ```
+
+### STEP 03 - collect dataset
+Dataset : Kaggel [CT KIDNEY DATASET: Normal-Cyst-Tumor and Stone]  
+Dataset Link : https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone  
+Size : 1.66 GB   
+Files : 12.4k Files
