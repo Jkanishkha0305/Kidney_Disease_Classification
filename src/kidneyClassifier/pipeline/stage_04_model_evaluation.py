@@ -17,7 +17,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
-        # evaluation.log_into_mlflow()
+        # evaluation.log_into_mlflow() once we get the required parameter we can comment this out
 
 
 
