@@ -54,6 +54,32 @@ Model link : https://keras.io/api/applications/vgg/#vgg16-function
 Image size : 244x244x3
 
 
+```bash
+# Finally run the following command
+python main.py
+```
+
+![main](assets/imgs/terminal1.png)
+
+![main](assets/imgs/terminal2.png)
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+![Screenshot of the app.py terminal](assets/imgs/terminal4.png)
+
+Now,
+```bash
+open up you local host and port
+```
+![Screenshot of the app.py](assets/imgs/app.png)
+
+![Screenshot of the app.py Normal](assets/imgs/output.png)
+
+![Screenshot of the app.py Tumor](assets/imgs/outpu2.png)
+
 ## MLflow
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
@@ -64,6 +90,10 @@ Image size : 244x244x3
 
 ##### cmd
 - mlflow ui
+
+![mlflow](assets/imgs/mlflow1.png)
+
+![mlflow](assets/imgs/mlflow2.png)
 
 
 ### dagshub
@@ -97,12 +127,20 @@ export MLFLOW_TRACKING_PASSWORD=6bd16d7f5ee713eba8329fb353c637dc8de93b55
 
 ```
 
+![mlflow](assets/imgs/mlflow3.png)
+
+![mlflow](assets/imgs/mlflow4.png)
+
+![mlflow](assets/imgs/mlflow5.png)
+
 
 ### DVC cmd
 [DVC](https://dvc.org/doc)  
 1. dvc init
 2. dvc repro
 3. dvc dag
+
+![dvc](assets/imgs/terminal3.png)
 
 
 ## About MLflow & DVC
@@ -178,10 +216,15 @@ DVC
 	sudo usermod -aG docker ubuntu
 
 	newgrp docker
+
+![aws](assets/imgs/aws1.png)
+
+![aws](assets/imgs/aws2.png)
 	
 # 6. Configure EC2 as self-hosted runner:
     settings>actions>runner>new self hosted runner> choose os> then run command one by one
 
+![github](assets/imgs/github2.png)
 
 # 7. Setup github secrets:
     settings>secrets and variables>action>add new repository secret
